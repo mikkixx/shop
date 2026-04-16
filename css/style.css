@@ -1,0 +1,215 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 202, 132);
+    padding: 30px;
+}
+nav{
+    width: 100%;
+    height: auto;
+}
+nav > ul{
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+nav > ul > li{
+    list-style-type: none;
+}
+nav > ul > li > a{
+    color: rgb(141, 37, 0);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+nav > ul > li > a:hover{
+    color: rgb(255, 242, 236);
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(249, 187, 106);
+}
+footer > p{
+    color: white;
+    margin-bottom: 50px;
+}
+main{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+.popular-tovar{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.popular-tovar > h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.tovar-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.tovar-card {
+    width: 100%; 
+    height: auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 10px; 
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+.tovar-img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.tovar-info{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.tovar-info > a{
+    color:rgb(141, 37, 0);
+    background-color: rgb(255, 202, 132);
+    padding: 5px 40px;
+    border-radius: 7px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 15px;
+}
+.tovar-info > a:hover{
+    color: rgb(255, 242, 236);
+    background-color: rgb(255, 221, 179);
+    padding: 7px 50px;
+}
+.product-page{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    padding: 50px 0;
+}
+.tovar-img-page{
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.tovar-info-page{
+    width: 45%;
+    height: auto;
+}
+.tovar-info-page > h1{
+    margin-bottom: 60px;
+}
+.tovar-info-page:nth-child(2){
+    line-height: 1.5;
+}
+.price {
+    width: 50%;
+    height: auto;
+    background-color: rgb(233, 255, 229);
+    padding: 20px 10px;
+    border-radius: 15px;
+    margin-bottom: 20px; 
+}
+
+.tovar-info-page > button {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px 0;
+    background-color: rgb(166, 237, 154);
+}
+.tovar-info-page > button:hover{
+    cursor: pointer;
+    background: transparent;
+    color:rgb(55, 152, 38);
+    border: 1px solid rgb(55, 152, 38);
+}
+.custom-nabvar{
+    background-color: rgb(255, 202, 132);
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #ffffff !important;
+}
+
+.navbar .nav-link {
+  transition: color 0.5s ease;
+}
+
+.btn1{
+  background-color:rgb(54, 147, 38);
+  color: white;
+  padding: 5px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.btn1:hover{
+  background-color:rgb(161, 255, 144);
+  color: white;
+  padding: 7px 50px;
+}
+
+.add-tovar > a{
+  background-color:rgb(54, 147, 38);
+  color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.add-tovar > a:hover{
+  background-color:rgb(161, 255, 144);
+  color: white;
+  padding: 15px 50px;
+}
+.p-4 > a{
+  background-color:rgb(54, 147, 38);
+  color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 15px;
+}
+.p-4 > a:hover{
+  background-color:rgb(161, 255, 144);
+  color: white;
+  padding: 15px 50px;
+}
