@@ -9,6 +9,9 @@ header{
     background-color: rgb(255, 202, 132);
     padding: 30px;
 }
+footer > p{
+    margin-top: 20px;
+}
 nav{
     width: 100%;
     height: auto;
@@ -55,6 +58,7 @@ main{
 .popular-tovar > h3{
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 20px;
 }
 .tovar-list {
     display: grid;
@@ -76,7 +80,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content:end;
     text-align: center;
     padding: 20px 15px;
 }
@@ -134,9 +138,9 @@ main{
     width: 50%;
     height: auto;
     background-color: rgb(233, 255, 229);
-    padding: 20px 10px;
+    padding: 10px 10px;
     border-radius: 15px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 .tovar-info-page > button {
